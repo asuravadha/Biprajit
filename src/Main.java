@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
+        arrays arr=new arrays();
 
 //        File obj=new File("data.txt");
 //        Scanner input= null;
