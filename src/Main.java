@@ -27,7 +27,14 @@ public class Main {
             else{
                 break;
             }
-            arr.data("",r,c);
+            boolean flag=arr.data("",r,c);
+            if(!flag){
+                arr.data("reset",0,0);
+                System.out.println("loop is reset");
+                r=0;
+                c=0;
+            }
+
         }
 
 //        File obj=new File("data.txt");
