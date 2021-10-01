@@ -3,8 +3,8 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args){
+ class Main extends inherit{
+    public  static void array(){
         arrays arr=new arrays();
         int r=0,c=0;
         arr.data("reset",r,c);
@@ -36,6 +36,23 @@ public class Main {
             }
 
         }
+    }
+    Main(String data){
+        super(data);
+    System.out.println(data+" from Main class");
+    }
+    public static void inheritconcept(){
+        Main obj=new Main("hai");
+        obj.protecteddata();  // as it is non static i cant access it directly
+        publicdata(); //as it is static method i can access it directly from inherit class
+
+    }
+
+    public static void main(String[] args){
+        //to implement arra grid game  use array();
+        //array();
+        //to implement inherit concept call inheritconcept();
+        inheritconcept();
 
 //        File obj=new File("data.txt");
 //        Scanner input= null;
