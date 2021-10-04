@@ -13,7 +13,7 @@ public class Signup {
         }
     }
 
-    public void getAllUsers() {
+    public User[] getAllUsers() {
         for(User userObj: users) {
             System.out.print(userObj.username);
             System.out.println();
@@ -21,16 +21,21 @@ public class Signup {
             System.out.print(userObj.password);
             System.out.println();
         }
+
+        User[] usersArr = new User[users.size()];
+        users.toArray(usersArr);
+
+        return usersArr;
     }
 }
 
 
-class User {
-    String username;
-    String password;
-
-    User(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-}
+//class User {
+//    String username;
+//    String password;
+//
+//    User(String username, String password) {
+//        this.username = username;
+//        this.password = password;
+//    }
+//}

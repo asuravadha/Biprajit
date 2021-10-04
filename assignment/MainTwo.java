@@ -1,9 +1,11 @@
 
 import features.Signup;
-
+import features.User;
 import java.util.Scanner;
 
 public class MainTwo {
+    private static Object User;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Signup signObj = new Signup();
@@ -31,6 +33,7 @@ public class MainTwo {
             }
         }
 
-        signObj.getAllUsers();
+        User[] usersArr = signObj.getAllUsers();
+        System.out.println(usersArr);
     }
 }
