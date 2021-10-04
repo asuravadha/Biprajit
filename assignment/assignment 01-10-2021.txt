@@ -1,5 +1,8 @@
 to implement a simple signup and signin operation using arrays and multiple inherti concept in java .
 make sure ti use signin in ine class and signup in another class. and access this through Main class.
 
-
 try to use hierarical inherit.
+
+Agenda:
+    - Implement signup and signin operation using arrays and inheritance
+    - Try to implement hierarical inheritance
