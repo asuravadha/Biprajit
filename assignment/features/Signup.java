@@ -18,8 +18,8 @@ public class Signup {
             System.out.print(userObj.username);
             System.out.println();
 
-            System.out.print(userObj.password);
-            System.out.println();
+//            System.out.print(userObj.password);
+//            System.out.println();
         }
 
         User[] usersArr = new User[users.size()];

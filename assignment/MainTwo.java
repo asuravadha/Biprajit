@@ -33,6 +33,7 @@ public class MainTwo {
             }
         }
 
+        // **
         User[] usersArr = signObj.getAllUsers();
         System.out.println(usersArr);
     }
