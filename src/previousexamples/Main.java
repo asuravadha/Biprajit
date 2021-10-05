@@ -1,20 +1,16 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
- class Main extends inherit{
+package previousexamples;
+
+class Main extends inherit{
 
     Main(String data){
         super(data);
-    System.out.println(data+" from Main class");
+    System.out.println(data+" from previousexamples.Main class");
     }
-
 
     public static void main(String[] args){
         //to implement arra grid game  use array();
         //array();
-        //to implement inherit concept call inheritconcept();
+        //to implement previousexamples.inherit concept call inheritconcept();
         //inheritconcept();
 
 //        File obj=new File("data.txt");

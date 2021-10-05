@@ -1,3 +1,5 @@
+package previousexamples;
+
 public class arrays {
     static boolean flag;
     public  boolean data(String input,int r,int c) {
