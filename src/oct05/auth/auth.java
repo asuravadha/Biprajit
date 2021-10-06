@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class auth {
-    public static void authentication(){
+    public
+    void authentication(){
         ArrayList<user> users=new ArrayList<>();
         Scanner input=new Scanner(System.in);
         do {
