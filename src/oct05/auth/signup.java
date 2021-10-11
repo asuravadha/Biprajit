@@ -1,5 +1,6 @@
 package oct05.auth;
 
+<<<<<<< HEAD
 import oct05.data.user;
 
 import java.util.ArrayList;
@@ -20,4 +21,8 @@ public class signup extends signin {
         users.add(new user(username, password, data));
         System.out.println("registered successfully");
     }
+=======
+public class signup
+{
+>>>>>>> 6914b5176717bf4ead903614fc79830df78a692e
 }

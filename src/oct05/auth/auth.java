@@ -5,8 +5,14 @@ import oct05.data.user;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class auth extends signup {
     public static void authentication(){
+=======
+public class auth {
+    public
+    void authentication(){
+>>>>>>> 6914b5176717bf4ead903614fc79830df78a692e
         ArrayList<user> users=new ArrayList<>();
         Scanner input=new Scanner(System.in);
         do {
